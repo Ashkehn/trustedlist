@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="POC-AM" TSLTag="https://uri.etsi.org/02231/TSLTag">
+    <SchemeInformation>
+        <TSLVersionIdentifier>5</TSLVersionIdentifier>
+        <TSLSequenceNumber>1</TSLSequenceNumber>
+        <TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists</TSLType>
+        <SchemeOperatorName>
+            <Name xml:lang="en">Information Systems Agency of Armenia</Name>
+        </SchemeOperatorName>
+        <SchemeOperatorAddress>
+            <PostalAddresses>
+                <PostalAddress xml:lang="en">
+                    <StreetAddress>Vazgen Sargsyan</StreetAddress>
+                    <Locality>Yerevan</Locality>
+                    <StateOrProvince>AM</StateOrProvince>
+                    <PostalCode>0010</PostalCode>
+                    <CountryName>AM</CountryName>
+                </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+                <URI xml:lang="en">mailto:insfo@isaa.am</URI>
+            </ElectronicAddress>
+        </SchemeOperatorAddress>
+        <SchemeName>
+            <Name xml:lang="en">AM:Information Systems Agency of Armenia</Name>
+        </SchemeName>
+        <SchemeInformationURI>
+            <URI xml:lang="en">https://isaa.am/</URI>
+        </SchemeInformationURI>
+        <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate</StatusDeterminationApproach>
+        <SchemeTypeCommunityRules>
+            <URI xml:lang="en">https://uri.etsi.org/TrstSvc/TrustedList/schemerules/EUlistofthelists</URI>
+        </SchemeTypeCommunityRules>
+        <SchemeTerritory>AM</SchemeTerritory>
+        <PolicyOrLegalNotice/>
+        <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+        <PointersToOtherTSL>
+            <OtherTSLPointer>
+                <ServiceDigitalIdentities/>
+                <TSLLocation>https://github.com/Ashkehn/trustedlist\AM-TRUSTED.xml</TSLLocation>
+                <AdditionalInformation>
+                    <OtherInformation>
+                        <TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists</TSLType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTerritory>AM</SchemeTerritory>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <ns4:MimeType>application/vnd.etsi.tsl+xml</ns4:MimeType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeOperatorName/>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTypeCommunityRules/>
+                    </OtherInformation>
+                </AdditionalInformation>
+            </OtherTSLPointer>
+        </PointersToOtherTSL>
+        <ListIssueDateTime>2024-09-20T01:00:00Z</ListIssueDateTime>
+        <NextUpdate>
+            <dateTime>2025-03-20T00:00:00Z</dateTime>
+        </NextUpdate>
+    </SchemeInformation>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-3cd41f70f812cd22523efbf829e57bfc"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8Nd6plhLezVL+Qzzrf8IWJov+9rA4CF2Ry69hAMByXc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-3cd41f70f812cd22523efbf829e57bfc"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>WAyQzWKdpgk598kkhVIezmJn7iZsgP/dcYyg9f8hJZc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-3cd41f70f812cd22523efbf829e57bfc">T+GxDulAEJpoHpFeGWwMritGA62yYcZnf51IfY5FU90BIy3Aj7q47xU/9VbkI/MXrmlSCBhaMZLRaIi5Qv9KykjBbYakpfzviTtsTBiRQoVuTpBysl9Y/G3lIMWVDD8v/+acqM5toqJTwyc0AP2zPiNlX5St/czxVuChqMj+MY/HVGT0YnbSUJsougllKCbqN7rKM4UyZl9I7CyDYSxXPihhRrXL838FPz1EcCRGScudsdilSQuBCgKLHiRwFccuCApq6w5VzKg5BpK36YNjILaxwHGutVwKObsgtnXJROOXpxCeMWOs06oPdo3OF6rgvUX1omGXEwwvtIrnBvQ2fA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDdzCCAl+gAwIBAgIES/g7pzANBgkqhkiG9w0BAQsFADBsMQswCQYDVQQGEwJBTTEQMA4GA1UECBMHWWVyZXZhbjEQMA4GA1UEBxMHWWVyZXZhbjERMA8GA1UEChMIVFNMIFNpZ24xETAPBgNVBAsTCFRTTCBTaWduMRMwEQYDVQQDEwpUU0wgU2lnbmVyMB4XDTI0MDkyMDEzNTEwNloXDTI0MTIxOTEzNTEwNlowbDELMAkGA1UEBhMCQU0xEDAOBgNVBAgTB1llcmV2YW4xEDAOBgNVBAcTB1llcmV2YW4xETAPBgNVBAoTCFRTTCBTaWduMREwDwYDVQQLEwhUU0wgU2lnbjETMBEGA1UEAxMKVFNMIFNpZ25lcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ1nZH+SFyDaouiropFj2fbQEoLGKBBF9U4AUBqAUYQkEroJ0MRfvYhtxVEwpjHBAPn6WiUJs2zIq8Kv1/2rJNlztpKBcrld8GLS+muErcuDOHYGxZtMyQ54Wkh31Gr6RpJjL++kNYjORmmmz+PJfQWP1Cxp9r7KEhXrbO0zYS6JSPSBXaFHNxhRIDwFUhhjDFQJtS/PTspTvS/1trzJj6BKX8m6rF5PQiZ/H+g2cDanoCprKfr4XPyfoiW/doVYUp7wJTXz+RwMauMoBuA+IvvCAxSa0QfML0/UYe6Gdnqx1LQ8Z3dCH+6ED+Mx1SoKqiao6+10UXKD4dx6mOurKmECAwEAAaMhMB8wHQYDVR0OBBYEFEhhvyFAs/ifFEk+lJuANHPxXS4pMA0GCSqGSIb3DQEBCwUAA4IBAQBd7k/y0Wx1tVH7giK8hYpp8EJxZl28UIwTRQ0NzdysbE7C2tfDry/txGvHdkvgqYbRBO6Nljhyj//96Z0FHQTbFhEjD8G18DswGBARNewbJDwksJ4fJJP1Ljp5JMserENSffDr/5rvp/0QKXoL98VduqoUQ32ROmkjgWt7RSLKNFI9CYsd21ohX/4z74GDeWUuVlzrAqvT/OArVVPsmtKPJVSN612pQspwVkUgtp2z8BXpg2F8onV+Y6EISVLMc3HWUe3UWeOE7s6IMN+jPaG6lC/zLangCjOAlbdkZk5mAwZRE2voPcfjtYVUlPYRWnS0PYkIFt/3HI4PX/wsZ3TU</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-3cd41f70f812cd22523efbf829e57bfc"><xades:SignedProperties Id="xades-id-3cd41f70f812cd22523efbf829e57bfc"><xades:SignedSignatureProperties><xades:SigningTime>2024-09-20T15:22:30Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>zgbNdAqicGCH2MGY9TqHG1RVacg=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=TSL Signer,OU=TSL Sign,O=TSL Sign,L=Yerevan,ST=Yerevan,C=AM</ds:X509IssuerName><ds:X509SerialNumber>1274559399</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
